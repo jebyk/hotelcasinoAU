@@ -1,0 +1,38 @@
+# Robots.txt for domain.com
+# Generated on 2025-10-04 17:06:49
+# Optimized for maximum SEO performance
+
+User-agent: *
+Disallow: /admin/
+Disallow: /json_settings/
+Disallow: /*.json$
+Disallow: /cgi-bin/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /json_settings/
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://domain.com/sitemap.xml
+
+# Visit https://domain.com for more information
